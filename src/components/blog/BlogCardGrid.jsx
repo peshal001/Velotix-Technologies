@@ -5,7 +5,7 @@ const BlogCardGrid = () => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch('/blogs.json')
+    fetch(`${import.meta.env.BASE_URL}blogs.json`)
       .then(res => res.json())
       .then(data => {
         setBlogs(data.slice(0, 3)); 
