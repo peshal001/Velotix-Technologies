@@ -12,7 +12,8 @@ const Salesforce = () => {
     <div className='bg-white'>
       <Navbar />
       <HeroSection
-        videoSrc="/src/assets/images/Blog.mp4"
+        videoSrc="/Blog.mp4"
+
         title="Elevate Customer Experiences with Salesforce"
         subtitle="Streamline Sales, Service & Marketing with Cloud CRM"
         ctaText="Unlock Your Potential"

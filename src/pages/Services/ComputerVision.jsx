@@ -13,7 +13,7 @@ const ComputerVision = () => {
     <>
       <Navbar />
       <HeroSection
-        videoSrc="/src/assets/images/ComputerVersion.mov"
+        videoSrc="/ComputerVersion.mov"
         title="Empowering Machines to See the World"
         subtitle="Automate Visual Intelligence with Computer Vision"
         textColor="text-black-900" 

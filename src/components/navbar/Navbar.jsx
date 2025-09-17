@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '/Logo.jpg';
+// Use public folder reference for Vite static assets
+const logoPath = '/Logo.jpg';
 import ServicesDropdown from './ServicesDropdown';
 import IndustriesDropdown from './IndustriesDropdown';
 import CompanyDropdown from './CompanyDropdown';
@@ -91,10 +92,10 @@ const Navbar = () => {
         style={{ top: dateTimeNavbarVisible ? '2.5rem' : '0' }} 
       >
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
-          <a className="flex title-font font-bold items-center text-black mb-4 md:mb-0" href="/">
-            <img src={Logo} alt="Logo" className="w-16 h-16 rounded-full" />
+          <NavLink to="/" className="flex title-font font-bold items-center text-black mb-4 md:mb-0">
+            <img src={logoPath} alt="Logo" className="w-16 h-16 rounded-full" />
             <span className="ml-3 text-4xl text-black">Velotix-Tech</span>
-          </a>
+          </NavLink>
 
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center justify-center text-lg space-x-6">
             <ServicesDropdown />

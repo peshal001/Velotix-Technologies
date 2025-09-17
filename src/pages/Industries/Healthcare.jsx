@@ -20,7 +20,7 @@ const Healthcare = () => {
     <div className='bg-[#FAF0E6]'>
       <Navbar />
       <HeroImageSection
-        imageSrc="/src/assets/images/healthcare-banner.png" 
+        imageSrc="/Healthtech.png" 
         title="Innovating Healthcare for a Better Tomorrow"
         subtitle="Transforming Care with Technology and Expertise"
         textColor="text-gray-900" 

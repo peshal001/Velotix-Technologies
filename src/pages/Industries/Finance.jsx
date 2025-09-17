@@ -20,7 +20,7 @@ const Finance = () => {
     <>
       <Navbar />
       <HeroImageSection
-        imageSrc={FinanceImage} 
+        imageSrc="/finance-banner.jpeg" 
         title="Empowering Financial Growth"
         subtitle="Innovative Solutions for a Prosperous Future"
         textColor="text-white" 
