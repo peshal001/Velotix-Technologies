@@ -1,4 +1,3 @@
-import EducationImage from "../../assets/images/education-banner.jpeg";
 import { useNavigate } from "react-router-dom"; 
 export default function EducationHeroSection() {
   const navigate = useNavigate();
@@ -29,7 +28,7 @@ export default function EducationHeroSection() {
           <div className="lg:w-1/2">
             <div className="relative rounded-xl ml-55 overflow-hidden">
               <img
-                src={EducationImage}
+                src="/education-banner.jpeg"
                 alt="AI in Education"
                 className="w-full h-auto object-cover"
               />

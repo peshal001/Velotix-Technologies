@@ -1,5 +1,4 @@
 import React from 'react';
-import RetailImage from '../../assets/images/retail-banner.jpeg'; 
 import { useNavigate } from "react-router-dom";
 
 const RetailHeroSection = () => {
@@ -27,7 +26,7 @@ const RetailHeroSection = () => {
           <div className="lg:w-1/2">
             <div className="relative rounded-xl ml-55 overflow-hidden">
               <img
-                src={RetailImage}
+                src="/retail-banner.jpeg"
                 alt="Retail Shopping"
                 className="w-full h-auto object-cover"
               />
