@@ -39,7 +39,7 @@ const ComputerVisionSection = () => {
       </div>
       <div className="lg:w-1/3 relative mr-50">
         <img
-          src="/src/assets/images/content_banner.jpg" 
+          src="./content_banner.jpg" 
           alt="Computer Vision Solutions"
           className="rounded-lg shadow-lg w-full h-auto"
         />

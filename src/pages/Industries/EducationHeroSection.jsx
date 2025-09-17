@@ -28,7 +28,7 @@ export default function EducationHeroSection() {
           <div className="lg:w-1/2">
             <div className="relative rounded-xl ml-55 overflow-hidden">
               <img
-                src="/education-banner.jpeg"
+                src="./education-banner.jpeg"
                 alt="AI in Education"
                 className="w-full h-auto object-cover"
               />

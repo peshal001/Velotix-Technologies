@@ -51,7 +51,7 @@ const AboutUs = () => {
     <div className="bg-white">
       <Navbar />
       <HeroImageSection
-        imageSrc="/src/assets/images/aboutus-banner.png"
+        imageSrc="./aboutus-banner.png"
         title="About Us"
         subtitle="Learn More About Our Vision, Mission, and Values"
         textColor="text-gray-900"
@@ -224,7 +224,7 @@ const AboutUs = () => {
 
             <div className="relative rounded-lg shadow-md overflow-hidden md:order-first">
               <img
-                src="/src/assets/images/gallery-banner.png"
+                src="./gallery-banner.png"
                 alt="Office Space"
                 className="w-full h-full object-cover"
               />

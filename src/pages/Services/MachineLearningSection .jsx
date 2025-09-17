@@ -38,7 +38,7 @@ const MachineLearningSection = () => {
       </div>
       <div className="lg:w-1/3 relative mr-50">
         <img
-          src="/src/assets/images/education-banner.jpeg" 
+          src="./education-banner.jpeg" 
           alt="Machine Learning Solutions"
           className="rounded-lg shadow-lg w-full h-auto"
         />

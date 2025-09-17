@@ -74,7 +74,7 @@ const Careers = () => {
     <div className="bg-white">
       <Navbar />
       <HeroImageSection
-        imageSrc="/src/assets/images/careers-banner.jpeg"
+        imageSrc="./careers-banner.jpeg"
         title="Join Our Team"
         subtitle="Build the Future with Velotix Technologies"
         textColor="text-gray-900"

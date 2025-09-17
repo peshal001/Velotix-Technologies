@@ -38,7 +38,7 @@ const BigDataAnalyticsSection = () => {
       </div>
       <div className="lg:w-1/3 relative mr-50">
         <img
-          src="/src/assets/images/finance-banner.jpeg" 
+          src="./finance-banner.jpeg" 
           alt="Big Data Analytics Solutions"
           className="rounded-lg shadow-lg w-full h-auto"
         />

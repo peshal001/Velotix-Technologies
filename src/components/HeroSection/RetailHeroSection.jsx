@@ -26,7 +26,7 @@ const RetailHeroSection = () => {
           <div className="lg:w-1/2">
             <div className="relative rounded-xl ml-55 overflow-hidden">
               <img
-                src="/retail-banner.jpeg"
+                src="./retail-banner.jpeg"
                 alt="Retail Shopping"
                 className="w-full h-auto object-cover"
               />

@@ -3,7 +3,6 @@ import Navbar from '../../components/navbar/Navbar'
 import HeroImageSection from '../../components/HeroSection/HeroImageSection'
 import Footer from '../../components/footer/Footer'
 import { useNavigate } from "react-router-dom";
-import HealthTech from "../../assets/images/Healthtech.png"
 import HealthTechCard from './HealthTechCard';
 import BlogCardGrid from "../../components/blog/BlogCardGrid"
 import HealthTechCases from './HeathTechCases';
@@ -20,7 +19,7 @@ const Healthcare = () => {
     <div className='bg-[#FAF0E6]'>
       <Navbar />
       <HeroImageSection
-        imageSrc="/src/assets/images/healthcare-banner.png" 
+        imageSrc="./healthcare-banner.png" 
         title="Innovating Healthcare for a Better Tomorrow"
         subtitle="Transforming Care with Technology and Expertise"
         textColor="text-gray-900" 
@@ -42,7 +41,7 @@ const Healthcare = () => {
         <div className="lg:w-1/2">
           <div className="relative rounded-xl ml-55 overflow-hidden">
             <img
-              src= {HealthTech}
+              src="./Healthtech.png"
               alt="Healthcare Professionals in a Lab"
               className="w-full h-auto object-cover"
             />

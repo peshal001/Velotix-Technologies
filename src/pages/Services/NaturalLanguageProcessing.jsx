@@ -13,7 +13,7 @@ const NaturalLanguageProcessing = () => {
     <>
       <Navbar />
       <HeroSection
-        videoSrc="/src/assets/images/NLP.mov"
+        videoSrc="./NLP.mov"
         title="Understand and Generate Human Language"
         subtitle="Unlock the Power of Communication with NLP"
         ctaText="Start Exploring"

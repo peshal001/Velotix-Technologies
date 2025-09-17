@@ -3,7 +3,6 @@ import Navbar from '../../components/navbar/Navbar'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import Footer from '../../components/footer/Footer'
 import { useNavigate } from "react-router-dom";
-import PredictiveModelingImg from "../../assets/images/PredictiveModelingImg.png"
 import PredictiveAnalyticsBenefitsCard from './PredictiveAnalyticsBenefitsCard';
 import PredictiveModelingSection from './PredictiveModelingSection';
 import BlogCardGrid from '../../components/blog/BlogCardGrid';
@@ -21,7 +20,7 @@ const PredictiveModelling = () => {
     <>
       <Navbar />
       <HeroSection
-        videoSrc="/src/assets/images/HomeSLider.mp4"
+        videoSrc="./HomeSLider.mp4"
         title="Predict Tomorrow, Today"
         subtitle="Leverage Predictive Models to Drive Data-Backed Decisions"
         ctaText="Get Insights"
@@ -47,7 +46,7 @@ const PredictiveModelling = () => {
             <div className="lg:w-1/2">
               <div className="relative rounded-xl ml-55 overflow-hidden">
                 <img
-                  src={PredictiveModelingImg}
+                  src="./PredictiveModelingImg.png"
                   alt="Predictive Modelling in E-commerce"
                   className="w-full h-auto object-cover"
                 />

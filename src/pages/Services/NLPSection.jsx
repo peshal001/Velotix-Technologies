@@ -40,7 +40,7 @@ const NLPSection = () => {
       </div>
       <div className="lg:w-1/3 relative mr-50">
         <img
-          src="/src/assets/images/education-banner.jpeg"
+          src="./education-banner.jpeg"
           alt="Chat GPT Integration"
           className="rounded-lg shadow-lg w-full h-auto"
         />

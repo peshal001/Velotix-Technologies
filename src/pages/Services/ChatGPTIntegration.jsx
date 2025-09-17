@@ -14,7 +14,7 @@ const ChatGPTIntegration = () => {
     <>
       <Navbar />
       <HeroSection
-        videoSrc="/src/assets/images/ChatGPT.mov"
+        videoSrc="./ChatGPT.mov"
         title="Smarter Conversations with ChatGPT"
         subtitle="Integrate AI-Powered Assistants into Your Workflow"
         ctaText="Explore Integration"

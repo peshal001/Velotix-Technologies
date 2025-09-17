@@ -38,7 +38,7 @@ const VelotixChatGptIntegration = () => {
       </div>
       <div className="lg:w-1/3 relative mr-60">
         <img
-          src="/src/assets/images/education-banner.jpeg" 
+          src="./education-banner.jpeg" 
           alt="Chat GPT Integration"
           className="rounded-lg shadow-lg"
         />
