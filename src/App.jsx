@@ -28,7 +28,7 @@ import ServicesDropdown from './components/navbar/ServicesDropdown';
 
 function App() {
   return (
-    <div className="bg-white min-h-screen">
+    <div className='bg-rgb(255 255 255 / var(--tw-bg-opacity))'>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/services/predictive-modelling" element={<PredictiveModelling />} />
