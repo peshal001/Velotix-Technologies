@@ -1,0 +1,6 @@
+@import "tailwindcss";
+.main-content { 
+  scroll-padding-top: 60px;
+  background: #FAF0E6;
+}
+

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Predictive Modelling",
+    "title": "Predictive Modelling Services",
+    "description": "Unlock future insights and make data-driven decisions with our predictive modelling services. We leverage advanced statistical techniques and machine learning algorithms to forecast trends, anticipate customer behavior, and optimize business outcomes.",
+    "features": [
+      "Demand Forecasting",
+      "Sales Prediction",
+      "Risk Assessment",
+      "Customer Churn Prediction",
+      "Anomaly Detection",
+      "Time Series Analysis",
+      "Model Development & Deployment",
+      "Performance Monitoring & Evaluation"
+    ],
+    "icon": "chart-line" 
+  },
+  {
+    "name": "Chat GPT Integration",
+    "title": "Chat GPT Integration Services",
+    "description": "Enhance your customer engagement and streamline communication with seamless Chat GPT integration. We help you implement intelligent chatbots for customer support, lead generation, content creation, and personalized interactions.",
+    "features": [
+      "Custom Chatbot Development",
+      "Integration with Existing Platforms (e.g., websites, CRM)",
+      "Natural Language Understanding (NLU) Optimization",
+      "Dialogue Flow Design",
+      "Personalized Responses",
+      "Multi-Language Support",
+      "Analytics & Reporting",
+      "Scalability & Reliability"
+    ],
+    "icon": "message-circle"
+  },
+  {
+    "name": "Natural Language Processing",
+    "title": "Natural Language Processing (NLP) Services",
+    "description": "Harness the power of language data with our comprehensive Natural Language Processing services. We enable machines to understand, interpret, and generate human language for various applications, driving efficiency and insights.",
+    "features": [
+      "Text Analytics & Mining",
+      "Sentiment Analysis",
+      "Topic Modeling",
+      "Named Entity Recognition (NER)",
+      "Language Translation",
+      "Text Summarization",
+      "Speech Recognition & Synthesis",
+      "Custom NLP Model Development"
+    ],
+    "icon": "file-text"
+  },
+  {
+    "name": "Machine Learning",
+    "title": "Machine Learning Services",
+    "description": "Transform your data into actionable intelligence with our tailored Machine Learning services. We design, develop, and deploy intelligent systems that learn from data, identify patterns, and automate complex tasks.",
+    "features": [
+      "Supervised Learning (Classification, Regression)",
+      "Unsupervised Learning (Clustering, Dimensionality Reduction)",
+      "Reinforcement Learning",
+      "Feature Engineering",
+      "Model Selection & Training",
+      "Deployment on Cloud or On-Premise",
+      "MLOps & Model Management",
+      "Explainable AI (XAI)"
+    ],
+    "icon": "brain"
+  },
+  {
+    "name": "Computer Vision",
+    "title": "Computer Vision Services",
+    "description": "Unlock the potential of visual data with our cutting-edge Computer Vision services. We build intelligent systems that can analyze and understand images and videos for applications ranging from object detection to facial recognition.",
+    "features": [
+      "Image Recognition & Classification",
+      "Object Detection & Tracking",
+      "Image Segmentation",
+      "Facial Recognition & Analysis",
+      "Video Analytics",
+      "Optical Character Recognition (OCR)",
+      "Custom Model Development",
+      "Integration with Hardware & Software"
+    ],
+    "icon": "camera"
+  },
+  {
+    "name": "Big Data Analytics",
+    "title": "Big Data Analytics Services",
+    "description": "Extract valuable insights from your large and complex datasets with our Big Data Analytics services. We provide end-to-end solutions for data processing, storage, analysis, and visualization to drive strategic decision-making.",
+    "features": [
+      "Data Lake Development & Management",
+      "ETL/ELT Processes",
+      "Data Warehousing Solutions",
+      "Real-time Data Processing",
+      "Advanced Statistical Analysis",
+      "Data Visualization & Reporting",
+      "Scalable Data Pipelines",
+      "Cloud-based Big Data Solutions"
+    ],
+    "icon": "database"
+  }
+]
