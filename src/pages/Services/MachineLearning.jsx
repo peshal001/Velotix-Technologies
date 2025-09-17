@@ -12,7 +12,7 @@ const MachineLearning = () => {
     <>
       <Navbar />
       <HeroSection
-        videoSrc="/ML.mov"
+        videoSrc="/src/assets/images/ML.mov"
         title="Turning Data Into Smart Decisions"
         subtitle="Accelerate Innovation with Machine Learning Solutions"
         ctaText="Let’s Build Smarter"

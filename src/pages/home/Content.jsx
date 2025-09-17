@@ -1,5 +1,6 @@
 import React from 'react';
 import FreeConsultanBtn from '../../components/FreeConsultanBtn';
+import content_banner from "../../assets/images/content_banner.jpg"
 
 const Content = () => {
   return (
@@ -22,7 +23,7 @@ const Content = () => {
       </div>
       <div className="image-container lg:max-w-4xl ml-auto mr-10 transition-transform duration-500 ease-in-out hover:scale-105">
   <img
-    src="/content_banner.jpg" 
+    src={content_banner} 
     alt="AI in Business"
     className="rounded-2xl shadow-2xl w-[650px] h-[420px] object-cover border-4 border-white hover:shadow-blue-500/50 transition-all duration-700 ease-in-out"
   />

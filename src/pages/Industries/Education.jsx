@@ -12,7 +12,7 @@ const Education = () => {
     <>
       <Navbar />
       <HeroImageSection
-        imageSrc="/education-banner.jpeg"
+        imageSrc="/src/assets/images/education-banner.jpeg"
         title="Empowering Education Through Technology"
         subtitle="Unlocking Learning Opportunities for a Brighter Future"
         textColor="text-white"  

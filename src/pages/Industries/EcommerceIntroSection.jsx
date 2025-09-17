@@ -1,3 +1,4 @@
+import EcommerceImg from '../../assets/images/ecommerce-banner.jpeg'; // replace with your actual image path
 
 export default function EcommerceIntroSection({ handleButtonClick }) {
   return (
@@ -18,7 +19,7 @@ export default function EcommerceIntroSection({ handleButtonClick }) {
           <div className="lg:w-1/2">
             <div className="relative rounded-xl ml-55 overflow-hidden">
               <img
-                src="/ecommerce-banner.jpeg"
+                src={EcommerceImg}
                 alt="E-commerce AI Integration"
                 className="w-full h-auto object-cover"
               />

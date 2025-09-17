@@ -14,7 +14,7 @@ const Retail = () => {
     <>
       <Navbar />
       <HeroImageSection
-        imageSrc="/retail-banner.jpeg"  
+        imageSrc="/src/assets/images/retail-banner.jpeg"  
         title="Revolutionizing Retail with Innovation"
         subtitle="Enhancing Customer Experience with Cutting-Edge Solutions"
         textColor="text-white"  

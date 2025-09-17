@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar/Navbar'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import Footer from '../../components/footer/Footer'
 import { useNavigate } from "react-router-dom";
+import PredictiveModelingImg from "../../assets/images/PredictiveModelingImg.png"
 import PredictiveAnalyticsBenefitsCard from './PredictiveAnalyticsBenefitsCard';
 import PredictiveModelingSection from './PredictiveModelingSection';
 import BlogCardGrid from '../../components/blog/BlogCardGrid';
@@ -46,7 +47,7 @@ const PredictiveModelling = () => {
             <div className="lg:w-1/2">
               <div className="relative rounded-xl ml-55 overflow-hidden">
                 <img
-                  src="/PredictiveModelingImg.png"
+                  src={PredictiveModelingImg}
                   alt="Predictive Modelling in E-commerce"
                   className="w-full h-auto object-cover"
                 />

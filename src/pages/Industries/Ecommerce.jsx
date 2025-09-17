@@ -12,7 +12,7 @@ const Ecommerce = () => {
     <>
       <Navbar />
       <HeroImageSection
-        imageSrc="/ecommerce-banner.jpeg"
+        imageSrc="/src/assets/images/ecommerce-banner.jpeg"
         title="Transform Your Business with E-Commerce"
         subtitle="Elevate Your Brand, Maximize Sales with Our E-Commerce Solutions"
         textColor="text-gray-900"  

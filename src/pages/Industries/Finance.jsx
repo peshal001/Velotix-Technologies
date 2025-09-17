@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import HeroImageSection from '../../components/HeroSection/HeroImageSection';
 import { useNavigate } from "react-router-dom";
+import FinanceImage from "../../assets/images/finance-banner.jpeg";
 import Footer from '../../components/footer/Footer';
 import FinanceCard from './FinanceCard';
 import FinanceCases from './FinanceCases';
@@ -19,7 +20,7 @@ const Finance = () => {
     <>
       <Navbar />
       <HeroImageSection
-        imageSrc="/finance-banner.jpeg" 
+        imageSrc={FinanceImage} 
         title="Empowering Financial Growth"
         subtitle="Innovative Solutions for a Prosperous Future"
         textColor="text-white" 
@@ -41,7 +42,7 @@ const Finance = () => {
             <div className="lg:w-1/2">
               <div className="relative rounded-xl ml-55 overflow-hidden">
                 <img
-                  src="/finance-banner.jpeg" 
+                  src={FinanceImage} 
                   alt="Financial Growth and Consulting"
                   className="w-full h-auto object-cover"
                 />

@@ -15,7 +15,7 @@ const Home = () => {
     <Navbar />
     <div>
       <HeroSection
-        videoSrc="/PredictiveModelling.mov"
+        videoSrc="/src/assets/images/PredictiveModelling.mov"
         title="Where Intelligence Meets Innovation"
         subtitle="We Engineer AI That Solves Real-World Problems"
         ctaText="Let’s Talk"

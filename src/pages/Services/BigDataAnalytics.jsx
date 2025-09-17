@@ -14,7 +14,7 @@ const BigDataAnalytics = () => {
       <Navbar />
       <div className='text-white'>
       <HeroSection className='text-white'
-        videoSrc="/BigData.mov"
+        videoSrc="/src/assets/images/BigData.mov"
         title="Unleashing the Power of Big Data"
         subtitle="Transforming Complex Data into Actionable Insights"
         ctaText="Discover More"

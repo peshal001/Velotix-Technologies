@@ -7,7 +7,7 @@ const Gallery = () => (
   <>
     <Navbar />
     <HeroImageSection
-      imageSrc="/gallery-banner.jpg" 
+      imageSrc="/src/assets/images/gallery-banner.jpg" 
       title="Our Stunning Gallery"
       subtitle="Browse Through Our Beautiful Collection of Images"
       textColor="text-black" />
